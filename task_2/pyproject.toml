@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ds&ml-module-3-hw-beatiuful-soap"
+version = "0.1.0"
+description = "DS&ML module 3 HW Beatiuful Soap"
+authors = ["mrdrebot <m.r.drebot.j@gmail.com>"]
+license = "MTI"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+pymongo = "^4.10.1"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ds&ml-module-3-hw-mongodb"
+version = "0.1.0"
+description = "DS&ML module 3 HW MongoDB"
+authors = ["mrdrebot <m.r.drebot.j@gmail.com>"]
+license = "MTI"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
